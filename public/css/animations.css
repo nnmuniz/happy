@@ -34,12 +34,12 @@
   animation-fill-mode: backwards;
 }
 
-.animation-right {
+.animate-right {
   animation-name: right;
   animation-duration: 300ms;
 }
 
-.animation-appear {
+.animate-appear {
   animation-name: appear;
   animation-duration: 300ms;
   animation-fill-mode: backwards;
