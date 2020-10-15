@@ -5,7 +5,7 @@
 
 aside.sidebar {
     position: fixed;
-    height: 100%;
+    height: 95%;
     padding: 32px 24px;
     background: #15c3d6;
 
@@ -100,10 +100,9 @@ main {
 
 .orphanage-details-content h1 {
     color: #4d6f80;
-    font-size: 5.4rem;
+    font-size: 3.6rem; /*5.4*/
     line-height: 1.5rem;
-    margin-bottom: 0.8rem
-
+    margin-bottom: 0.8rem;
 }
 
 .orphanage-details-content p {
