@@ -1,0 +1,25 @@
+{
+  "name": "rocketseat-happy-nlw",
+  "version": "1.0.0",
+  "description": "A oportunidade do bootcamp da Rocketseat, Next Level Week é construção de uma aplicação com diversas tecnologias se baseando em três pilares para acelerar sua carreira: Prática, Foco e Grupo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnmuniz/rocketseat-happy-nlw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnmuniz/rocketseat-happy-nlw/issues"
+  },
+  "homepage": "https://github.com/nnmuniz/rocketseat-happy-nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
