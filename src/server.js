@@ -7,6 +7,8 @@ const pages = require("./pages.js");
 const server = express();
 server
 
+  //utilizar o body de req
+  .use(express.urlencoded({ extended: true}))
   //utilizando os arquivos estaticos
   .use(express.static("public"))
 
@@ -15,10 +17,11 @@ server
   .set("view engine", "hbs")
 
   // criar uma rota
-  .get("/", pages.index)
-  .get("/orphanage", pages.orphanage)
-  .get("/orphanages", pages.orphanages)
-  .get("/create-orphanage", pages.createOphanage);
+  .get('/', pages.index)
+  .get('/orphanage', pages.orphanage)
+  .get('/orphanages', pages.orphanages)
+  .get('/create-orphanage', pages.createOphanage)
+  .post('/save-orphanage', pages.saveOrphanage)
 
 //ligar o servidor
 server.listen(5500);
